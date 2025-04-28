@@ -88,13 +88,19 @@ int main() {
     Agregar(&listaPacientes, "Camila Salas", 28, 1);
     Agregar(&listaPacientes, "Renata Banos", 39, 3);
     Agregar(&listaPacientes, "Leslie Jaramillo", 67, 2);
+    Agregar(&listaPacientes, "Jocelyn Miramon", 21, 3);
+    Agregar(&listaPacientes, "Ximena Herrera", 84, 3);
+    Agregar(&listaPacientes, "Sofia Garcia", 16, 1);
+    Agregar(&listaPacientes, "Hannah Garcia", 49, 2);
+    Agregar(&listaPacientes, "Naomi Vazquez", 36, 2);
 
     //Imprimimos la lista
     printf("-----PACIENTES------\n");
     Imprimir(listaPacientes);
 
-    // Eliminamos pacientes que si existe
+    // Eliminamos pacientes que si existen
     Eliminar(&listaPacientes, "Renata Banos");
+    Eliminar(&listaPacientes, "Ximena Herrera");
     //Eliminamos un paciente que no existe
     Eliminar(&listaPacientes, "Valeria Perez");
 
